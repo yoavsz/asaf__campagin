@@ -1,0 +1,229 @@
+body{
+    background-image: linear-gradient(45deg, #1482d6, #70C0E5);
+    background-repeat:no-repeat ;
+    height: 6000px;
+    font-family: system-ui;
+}
+/*header*/
+header{
+    display: grid;
+}
+header img{
+    height: 355px;
+    width: 983px;
+    margin: auto;
+    border-radius: 60px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+}
+/*main*/
+/*our vision*/
+.our__vision__container{
+    position: relative;
+    top: 395px;
+}
+.our__vision__container h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 88px;
+    color: white;
+    border-bottom: 5px solid white;
+    width: 500px;
+}
+.our__vision{
+    width: 850px;
+    margin: 0 auto;
+}
+.our__vision p{
+    font-weight: 400;
+    font-size: 21px;
+    color: white;
+}
+/*work__plan*/
+.work__plan__container{
+    display: grid;
+    position: relative;
+    top: 475px;
+}
+.work__plan__container h1{
+    font-size: 85px;
+    text-align: center;
+    border-bottom: 5px outset white;
+    margin: 0 auto;
+    width: 817px;
+    color: white;
+}
+.work__plan{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.work__plan a{
+    height: 275px;
+    width: 370px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.work__plan a p{
+    font-size: 42px;
+    position: relative;
+    top: 5px;
+}
+.work__plan a img{
+    height: 115px;
+    width: 115px;
+    position: relative;
+    top: 30px;
+    background: #73ddff;
+    padding: 15px;
+    border-radius: 40px;
+}
+/*work__plan pages*/
+.title__pages{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 10px solid silver;
+    font-size: 95px;
+    position: relative;
+    top: 160px;
+}
+.link__2__index{
+    position: relative;
+    right: 25px;
+    top: -50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #ff6a6a;
+    padding: 25px;
+    font-size: 25px;
+    border-radius: 25px;
+}
+.plan{
+  position: relative;
+  top: 200px;
+}  
+.plan p{
+    border-radius: 50px;
+    background: linear-gradient(145deg, #476ab0, #557ed2);
+    box-shadow: 11px 11px 0px #4465a9, -11px -11px 0px #5a87df;
+    color: white;
+    margin: 0 auto;
+    width: 720px;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 45px;
+}
+.plan h3{
+    font-size: 55px;
+    color: white;
+    position: relative;
+    top: 30px;
+}
+.plan ul{
+    border-radius: 50px;
+    background: #4fc463;
+    box-shadow: inset 15px 15px 30px #409f50, inset -15px -15px 30px #5ee976;
+    padding: 75px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.plan ul li{
+    font-size: 35px;
+}
+/*why to choose me*/
+.why__to__choose__me__container{
+    position: relative;
+    top: 720px;
+    text-align: center;
+}
+.why__to__choose__me__container h2{
+    font-size: 65px;
+    color: white;
+    width: 686px;
+    margin: 0 auto;
+    border-bottom: 4px outset silver;
+}
+.why__to__choose__me{
+    border-radius: 34px;
+    background: linear-gradient(145deg, #88a5de, #405885);
+    box-shadow: 5px 5px 0px #484e92, -5px -5px 0px #1d6cc1;
+    height: 740px;
+    width: 750px;
+    position: relative;
+    top: 65px;
+    margin: 0 auto;
+}
+/*news*/
+.news{
+    position: relative;
+    top: 1000px;
+}
+.news h2{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    border-bottom: 4px outset silver;
+    width: 290px;
+}
+.news__list{
+    border: 2px outset black;
+    border-bottom: none;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    background: #b1e0ff;
+}
+.news__list div{
+   border-bottom: 2px outset black;
+}
+.news__list div p{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    right: 10px;
+}
+/*footer*/
+footer{
+    position: fixed;
+    bottom: 0px;
+    display: grid;
+    background-color: rgb(0, 0, 116);
+    width: 100%;
+    z-index: 100;
+}
+footer h3{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+footer ul{
+    margin: auto;
+    display: flex;
+    gap: 160px;
+    list-style-type: none;
+    position: relative;
+    top: 25px;
+    left: 45px;
+}
+footer ul li a img{
+    height: 120px;
+    width: 125px;
+    margin: 0 auto;
+}
